@@ -1,0 +1,108 @@
+.logo_img img{
+    height: 150px;
+}
+.student_login #button1{
+    width: 150px;
+}
+.student_login button:hover{
+    transition: transform 1s ease-in-out;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 600px) {
+    .extra ul{
+        display: none;
+    }    
+}
+
+.c-item{
+    height: 600px;
+}
+.c-img{
+    height:100%;
+}
+
+body{
+    background-image: linear-gradient(90deg,#7cb4a9 ,#e7d0af 50%);
+}
+
+.card_1 img{
+    height: 150px;
+}
+
+.card_1:hover{
+    transition: transform 1s cubic-bezier(0.77, 0, 0.175, 1);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#Hole_admission{
+    background-color: #7cb4a9;
+     /* background-color: #729c93; */
+}
+
+.c_cards .c_cardImg{
+    height: 200px;
+}
+
+.t_cards .t_img{
+    height: 400px;
+}
+
+#management_Box{
+    
+    background-color: rgb(132, 169, 199);
+}
+
+/* .g_edit{
+    height: 500px; 
+    
+}
+.g_img{
+    
+    height: 100%;
+} */
+.gallery a img{
+    height: 200px;
+    width: 600px;
+    border-radius: 10px;   
+    
+}
+.gallery a{
+    height: 100%;
+    width: 100%;
+}
+.gallery a img:hover{
+    transition: 1s ease-in-out;
+    transform: scale(1.1);
+}
+.club .club_img{
+    height: 250px;
+}
+
+#Clubing{
+    background-color: rgb(142, 150, 160);
+}
+
+.footer_img img{
+    height: 150px;
+}
+.list_con{
+    list-style-type: none;
+}
+
+.service ul{
+    list-style-type: none;
+    
+}
+.service ul a{
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 600px) {
+    .club .club_img{
+        margin-left: 50px;
+        
+    }
+}
